@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test" preserve-order="true" enabled="false">
+    <classes>
+      <class name="com.Sample_Prep.PreparationCodes.SampleTestNG">
+        <methods>
+          <include name="testcase2">
+          </include>
+          <include name="testcase1">
+          </include>
+        </methods>
+       </class>
+    </classes>
+  </test>
+    <test name="Test2" preserve-order="true" enabled="false">
+   <groups>
+   <run>
+    <include name="demo">
+    </include>
+   </run>
+   </groups>
+    <classes>
+      <class name="com.Sample_Prep.PreparationCodes.SampleTestNG">
+       </class>
+       
+    </classes>
+    
+  </test> 
+    <test name="Test3" preserve-order="true" enabled="false">
+    <parameter name="TCname" value="1***1">
+    </parameter>
+    <classes>
+      <class name="com.Sample_Prep.PreparationCodes.SampleTestNG">
+       </class>
+       
+    </classes>
+    
+  </test> 
+    <test name="Test4" preserve-order="true" enabled="false">
+    <classes>
+      <class name="com.Sample_Prep.PreparationCodes.SampleTestNG">
+      <methods>
+      <include name = "testcase4">
+      </include>
+      </methods>
+       </class>
+       
+    </classes>
+    
+  </test>
+   <test name="Test5" preserve-order="true" enabled="false">
+    <classes>
+      <class name="com.Sample_Prep.PreparationCodes.Sample_GlobalSQA">
+      <methods>
+      <include name = "sampleDomelements">
+      </include>
+      </methods>
+       </class>
+       
+    </classes>
+    
+  </test>
+     <test name="Test6" preserve-order="true" enabled="false">
+    <classes>
+      <class name="com.Sample_Prep.PreparationCodes.Sample_GlobalSQA">
+      <methods>
+      <include name = "testAutomationElements">
+      </include>
+      </methods>
+       </class>
+       
+    </classes>
+    
+  </test>
+     <test name="samplerest" preserve-order="true" enabled="false">
+    <classes>
+      <class name="com.Sample_Prep.ResAssured.SampleRestAssured">
+      <methods>
+      <include name = "resstPOSTPlaceAPI">
+      </include>
+      </methods>
+       </class>
+       
+    </classes>
+    
+  </test>
+     <test name="samplerestComplexJSON" preserve-order="true" enabled="false">
+    <classes>
+      <class name="com.Sample_Prep.ResAssured.ComplexJSONParser">
+      <methods>
+      <include name = "JsonParsingExample">
+      </include>
+      </methods>
+       </class>
+       
+    </classes>
+    
+  </test>
+   <test name="DynandStaticJSON" preserve-order="true" enabled="false">
+    <classes>
+      <class name="com.Sample_Prep.ResAssured.DynamicJSON">
+      <methods>
+      <include name = "sampledynamicJSONoperation">
+      </include>
+      <include name = "sampledynamicDeleteOperation">
+      </include>      
+      </methods>
+       </class>
+       <class name="com.Sample_Prep.ResAssured.StaticJSONPayload">
+      <methods>
+      <include name = "SampleStaticJSON">
+      </include>      
+      </methods>
+       </class>
+    </classes>
+  </test>
+  
+     <test name="JIRAAPIADDComment" preserve-order="true" enabled="false">
+    <classes>
+      <class name="com.Sample_Prep.ResAssured.JiraAPI_CookieAuthentication">
+      <methods>
+      <include name = "JiraAPIAuthentication">
+      </include>
+      </methods>
+       </class>
+    </classes>
+  </test>
+    <test name="OauthAuthorization" preserve-order="true" enabled="false">
+    <classes>
+      <class name="com.Sample_Prep.ResAssured.OAuth_SampleRequest">
+      <methods>
+      <include name = "OAuth_AuthorizationCode">
+      </include>
+      </methods>
+       </class>
+    </classes>
+  </test>
+   <test name="DBConnection" preserve-order="true" enabled="true">
+    <classes>
+      <class name="com.Sample_Prep.PreparationCodes.Sample_SQLConnection">
+      <methods>
+      <include name = "mysqlconnectionDB">
+      </include>
+      </methods>
+       </class>
+    </classes>
+  </test>
+  <!-- Test -->
+</suite> <!-- Suite -->
