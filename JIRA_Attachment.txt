@@ -1,5 +1,4 @@
 Sample Text File to be attached to JIRA
 Thank you!
 JIRA Tahnks again..
-Dev branch
 
