@@ -1,8 +1,5 @@
 Sample Text File to be attached to JIRA
 Thank you!
 JIRA Tahnks again..
-Update from Dev2
-Update from dev1 from local machine
-
-Update from dev1 from local machine
+Update from Dev2 ec2 machine
 
