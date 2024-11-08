@@ -6,3 +6,6 @@ Update from dev1 from local MAC
 
 V2
 Update from Local machine
+
+V2
+Update from EC2 machine
