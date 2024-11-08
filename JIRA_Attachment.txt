@@ -1,5 +1,15 @@
 Sample Text File to be attached to JIRA
 Thank you!
 JIRA Tahnks again..
-Dev branch
+Update from Dev2 ec2 machine
+Update from dev1 from local MAC
+
+V2
+Update from Local machine
+
+V2
+Update from EC2 machine
+
+v3
+file update
 
